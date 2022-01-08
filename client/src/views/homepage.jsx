@@ -13,6 +13,13 @@ import Carousel from "react-bootstrap/Carousel";
 import Button from "react-bootstrap/Button";
 import bloodDonationDriveList from './../data/bloodDonationDrive'
 import winterClothDriveList from './../data/winterClothDrive'
+import blindSchoolList from './../data/winterClothDrive'
+import dikshaList from './../data/winterClothDrive'
+import leprosyList from './../data/winterClothDrive'
+import oldAgeHomeList from './../data/winterClothDrive'
+import sundayList from './../data/winterClothDrive'
+
+
 
 // const Workcomponent = React.lazy(() => import("../components/our_works"));
 
@@ -193,7 +200,7 @@ export default class Homepage extends Component {
                 }}
               >
                 <Button variant="outline-secondary">
-                  Change it
+                  Winter Cloth Donation Drive
                 </Button>{" "}
               </Link>
             </Carousel.Caption>
@@ -211,11 +218,11 @@ export default class Homepage extends Component {
               <Link
                 to={{
                   pathname: "/gallery",
-                  state: { list : winterClothDriveList },
+                  state: { list : sundayList },
                 }}
               >
                 <Button variant="outline-secondary">
-                  Winter Cloth Donation
+                  Sunday Activity
                 </Button>{" "}
               </Link>
             </Carousel.Caption>
@@ -229,6 +236,72 @@ export default class Homepage extends Component {
 
             <Carousel.Caption>
               <h3>Third slide label</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <Link
+                to={{
+                  pathname: "/gallery",
+                  state: { list : oldAgeHomeList },
+                }}
+              >
+                <Button variant="outline-secondary">
+                  Old Age Home Visit
+                </Button>{" "}
+              </Link>
+            </Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-100"
+              src={shareSectionImg}
+              alt="Fourth slide"
+            />
+
+            <Carousel.Caption>
+              <h3>Fourth slide label</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <Link
+                to={{
+                  pathname: "/gallery",
+                  state: { list : leprosyList },
+                }}
+              >
+                <Button variant="outline-secondary">
+                  Leprosy Hospital Visit 
+                </Button>{" "}
+              </Link>
+            </Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-100"
+              src={shareSectionImg}
+              alt="Fifth slide"
+            />
+
+            <Carousel.Caption>
+              <h3>Fifth slide label</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <Link
+                to={{
+                  pathname: "/gallery",
+                  state: { list : dikshaList },
+                }}
+              >
+                <Button variant="outline-secondary">
+                  Diksha Activity
+                </Button>{" "}
+              </Link>
+            </Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-100"
+              src={shareSectionImg}
+              alt="Sixth slide"
+            />
+
+            <Carousel.Caption>
+              <h3>Sixth slide label</h3>
               <p>
                 Praesent commodo cursus magna, vel scelerisque nisl consectetur.
               </p>
@@ -244,26 +317,30 @@ export default class Homepage extends Component {
               </Link>
             </Carousel.Caption>
           </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-100"
+              src={shareSectionImg}
+              alt="Seventh slide"
+            />
+
+            <Carousel.Caption>
+              <h3>Seventh slide label</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <Link
+                to={{
+                  pathname: "/gallery",
+                  state: { list : blindSchoolList },
+                }}
+              >
+                <Button variant="outline-secondary">
+                  Blind School
+                </Button>{" "}
+              </Link>
+            </Carousel.Caption>
+          </Carousel.Item>
         </Carousel>
-        {/*share your rotary experience section*/}
-        {/* <div className="container-fluid p-0 share__experience__section">
-                <div className="row m-0">
-                    <div className="col-md-6 p-0">
-                        <img style={{ pointerEvents:"none" }} src={shareSectionImg} className="img img-fluid w-100" alt=""/>
-                    </div>
-                    <div className="col-md-6 shareExpSection d-flex justify-content-center align-items-center">
-                        <div className="row m-0">
-                            <div className="col-md-12">
-                                <h1>Glipmse of Memorable Moments</h1>
-                            </div>
-                            <div className="col-md-12">
-                                <Link to="/gallery"><button className="btn_" >view gallery</button></Link>
-                            </div>
-                        </div>
-                    </div>
-                    
-                </div>
-            </div> */}
+        
         <div className="container-fluid s__b__s">
           <div className="row">
             <div className="col-md-6 d-flex justify-content-center">
