@@ -9,7 +9,8 @@ import Cube from '../components/common/cube';
 import ShareRotaryStory from '../components/shareRotaryStory';
 import Logo from '../assets/logo.png'
 import shareExpimg3 from '../assets/shareExp3.jpg'
-
+import Carousel from 'react-bootstrap/Carousel'
+import Button from 'react-bootstrap/Button'
 
 const Workcomponent = React.lazy(()=>import('../components/our_works'));
 
@@ -113,16 +114,66 @@ export default class Homepage extends Component {
 
 
             {/*Our Works*/}
-            <div className="our__works_">
+            {/* <div className="our__works_">
             <Suspense fallback={
             <div>Loading...</div>
             }>
                 <Workcomponent />
             </Suspense>
+            </div> */}
+             <div className="container our_vision_background_wrapper">
+                <div className="container our__vision__section">
+                    <h1 className="main__heading"><span>Our Works</span></h1>
+                    <div className="">
+                    <span className="section__para text-center section__para__ourVision">
+                   Our works content
+                    </span>
+                    </div>
+                </div>
             </div>
+            
+            <Carousel>
+  <Carousel.Item>
+    <img
+      className="d-block w-100"
+      src={shareSectionImg}
+      alt="First slide"
+    />
+    <Carousel.Caption>
+      <h3>First slide label</h3>
+      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+      <Button variant="outline-secondary">Blood Donation</Button>{' '}
+    </Carousel.Caption>
+  </Carousel.Item>
+  <Carousel.Item>
+    <img
+      className="d-block w-100"
+      src={shareSectionImg}
+      alt="Second slide"
+    />
 
+    <Carousel.Caption>
+      <h3>Second slide label</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <Button variant="outline-secondary">Winter Cloth Donation</Button>{' '}
+    </Carousel.Caption>
+  </Carousel.Item>
+  <Carousel.Item>
+    <img
+      className="d-block w-100"
+      src={shareSectionImg}
+      alt="Third slide"
+    />
+
+    <Carousel.Caption>
+      <h3>Third slide label</h3>
+      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+      <Button variant="outline-secondary">Secondary</Button>{' '}
+    </Carousel.Caption>
+  </Carousel.Item>
+</Carousel>
             {/*share your rotary experience section*/}
-            <div className="container-fluid p-0 share__experience__section">
+            {/* <div className="container-fluid p-0 share__experience__section">
                 <div className="row m-0">
                     <div className="col-md-6 p-0">
                         <img style={{ pointerEvents:"none" }} src={shareSectionImg} className="img img-fluid w-100" alt=""/>
@@ -137,8 +188,9 @@ export default class Homepage extends Component {
                             </div>
                         </div>
                     </div>
+                    
                 </div>
-            </div>
+            </div> */}
             <div className="container-fluid s__b__s">
                 <div className="row">
                     <div className="col-md-6 d-flex justify-content-center">
