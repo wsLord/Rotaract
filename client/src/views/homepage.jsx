@@ -11,15 +11,14 @@ import Logo from "../assets/logo.png";
 import shareExpimg3 from "../assets/shareExp3.jpg";
 import Carousel from "react-bootstrap/Carousel";
 import Button from "react-bootstrap/Button";
-import bloodDonationDriveList from './../data/bloodDonationDrive'
-import winterClothDriveList from './../data/winterClothDrive'
-import blindSchoolList from './../data/winterClothDrive'
-import dikshaList from './../data/winterClothDrive'
-import leprosyList from './../data/winterClothDrive'
-import oldAgeHomeList from './../data/winterClothDrive'
-import sundayList from './../data/winterClothDrive'
-
-
+import bloodDonationDriveList from "./../data/bloodDonationDrive";
+import winterClothDriveList from "./../data/winterClothDrive";
+import blindSchoolList from "./../data/blindSchool";
+import dikshaList from "./../data/dikshaActivity";
+import leprosyList from "./../data/leprosyVisit";
+import oldAgeHomeList from "./../data/oldAgeHome";
+import sundayList from "./../data/sundayActivity";
+import "./../assets/style.css";
 
 // const Workcomponent = React.lazy(() => import("../components/our_works"));
 
@@ -128,7 +127,7 @@ export default class Homepage extends Component {
                     alt=""
                   />
                 </div>
-                <h3 className="about-us">
+                {/* <h3 className="about-us">
                   <span>About Us</span>
                 </h3>
                 <span className="col-md-12 d-flex justify-content-center intro__section__para">
@@ -140,14 +139,14 @@ export default class Homepage extends Component {
                   of Rotary Club of Allahabad Elite, Uttar Pradesh, India. From
                   a humble 15 members team size we have grown to a 60+ member
                   team.
-                </span>
+                </span> */}
               </div>
             </div>
           </div>
         </div>
 
         {/*our vision*/}
-        <div className="container our_vision_background_wrapper">
+        {/* <div className="container our_vision_background_wrapper">
           <div className="container our__vision__section">
             <h1 className="main__heading">
               <span>Our vision</span>
@@ -160,8 +159,35 @@ export default class Homepage extends Component {
               </span>
             </div>
           </div>
-        </div>
+        </div> */}
+        <div className="main-container">
+          <div className="cards">
+            <div className="card card-1">
+              <div className="card__title">
+                <h2>About Us</h2>
+              </div>
+              <h2 className="card__desc">
+                Rotaract Club of MNNIT is an international service organization
+                under the Rotary International, for all who wish to create a
+                difference in the society today.We were established on 28
+                May,2015 under the club sponsorship of Rotary Club of Allahabad
+                Elite, Uttar Pradesh, India. From a humble 15 members team size
+                we have grown to a 60+ member team.
+              </h2>
+            </div>
 
+            <div className="card card-2">
+              <div className="card__title">
+                <h2>OUR VISION</h2>
+              </div>
+              <h2 className="card__desc">
+                The motto of the club is service before self. We aim not only to
+                serve society in any possible way but create a feeling of care,
+                responsibility and duty among the students of the college.
+              </h2>
+            </div>
+          </div>
+        </div>
         {/*Our Works*/}
         {/* <div className="our__works_">
             <Suspense fallback={
@@ -175,11 +201,7 @@ export default class Homepage extends Component {
             <h1 className="main__heading">
               <span>Our Works</span>
             </h1>
-            <div className="">
-              <span className="section__para text-center section__para__ourVision">
-                Our works content
-              </span>
-            </div>
+          
           </div>
         </div>
 
@@ -196,7 +218,7 @@ export default class Homepage extends Component {
               <Link
                 to={{
                   pathname: "/gallery",
-                  state: { list : winterClothDriveList },
+                  state: { list: winterClothDriveList },
                 }}
               >
                 <Button variant="outline-secondary">
@@ -218,12 +240,10 @@ export default class Homepage extends Component {
               <Link
                 to={{
                   pathname: "/gallery",
-                  state: { list : sundayList },
+                  state: { list: sundayList },
                 }}
               >
-                <Button variant="outline-secondary">
-                  Sunday Activity
-                </Button>{" "}
+                <Button variant="outline-secondary">Sunday Activity</Button>{" "}
               </Link>
             </Carousel.Caption>
           </Carousel.Item>
@@ -240,12 +260,10 @@ export default class Homepage extends Component {
               <Link
                 to={{
                   pathname: "/gallery",
-                  state: { list : oldAgeHomeList },
+                  state: { list: oldAgeHomeList },
                 }}
               >
-                <Button variant="outline-secondary">
-                  Old Age Home Visit
-                </Button>{" "}
+                <Button variant="outline-secondary">Old Age Home Visit</Button>{" "}
               </Link>
             </Carousel.Caption>
           </Carousel.Item>
@@ -262,11 +280,11 @@ export default class Homepage extends Component {
               <Link
                 to={{
                   pathname: "/gallery",
-                  state: { list : leprosyList },
+                  state: { list: leprosyList },
                 }}
               >
                 <Button variant="outline-secondary">
-                  Leprosy Hospital Visit 
+                  Leprosy Hospital Visit
                 </Button>{" "}
               </Link>
             </Carousel.Caption>
@@ -284,12 +302,10 @@ export default class Homepage extends Component {
               <Link
                 to={{
                   pathname: "/gallery",
-                  state: { list : dikshaList },
+                  state: { list: dikshaList },
                 }}
               >
-                <Button variant="outline-secondary">
-                  Diksha Activity
-                </Button>{" "}
+                <Button variant="outline-secondary">Diksha Activity</Button>{" "}
               </Link>
             </Carousel.Caption>
           </Carousel.Item>
@@ -308,7 +324,7 @@ export default class Homepage extends Component {
               <Link
                 to={{
                   pathname: "/gallery",
-                  state: { list : bloodDonationDriveList },
+                  state: { list: bloodDonationDriveList },
                 }}
               >
                 <Button variant="outline-secondary">
@@ -330,17 +346,15 @@ export default class Homepage extends Component {
               <Link
                 to={{
                   pathname: "/gallery",
-                  state: { list : blindSchoolList },
+                  state: { list: blindSchoolList },
                 }}
               >
-                <Button variant="outline-secondary">
-                  Blind School
-                </Button>{" "}
+                <Button variant="outline-secondary">Blind School</Button>{" "}
               </Link>
             </Carousel.Caption>
           </Carousel.Item>
         </Carousel>
-        
+
         <div className="container-fluid s__b__s">
           <div className="row">
             <div className="col-md-6 d-flex justify-content-center">
