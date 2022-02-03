@@ -19,7 +19,10 @@ import leprosyList from "./../data/leprosyVisit";
 import oldAgeHomeList from "./../data/oldAgeHome";
 import sundayList from "./../data/sundayActivity";
 import "./../assets/style.css";
-
+import Navbar from "react-bootstrap/Navbar";
+import Nav from "react-bootstrap/Nav";
+import NavDropdown from "react-bootstrap/NavDropdown";
+import Container from "react-bootstrap/Container";
 // const Workcomponent = React.lazy(() => import("../components/our_works"));
 
 export default class Homepage extends Component {
@@ -74,7 +77,35 @@ export default class Homepage extends Component {
         <div className="blob__container__section">
           <div className="container-fluid mt-3">
             <div className="container-lg  p-0">
-              <nav className="navbar  navbar-expand-lg m-0 p-0">
+            <Navbar collapseOnSelect expand="lg" bg="warning" variant="dark">
+  <Container>
+  <Navbar.Brand href="#home"><strong>React-Bootstrap</strong></Navbar.Brand>
+  <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+  <Navbar.Collapse id="responsive-navbar-nav">
+    <Nav className="me-auto">
+      <Nav.Link href="#features">Features</Nav.Link>
+      <Nav.Link href="#pricing">Payment</Nav.Link>
+      <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
+        <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+        <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
+        <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+        <NavDropdown.Divider />
+        <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
+      </NavDropdown>
+    </Nav>
+    <Nav>
+      <Nav.Link href="#deets">More</Nav.Link>
+      <Nav.Link eventKey={2} href="#memes">
+      
+        <Link to="/gallery">
+                      <span className="nav__link">View gallery</span>
+                    </Link>
+      </Nav.Link>
+    </Nav>
+  </Navbar.Collapse>
+  </Container>
+</Navbar>
+              {/*<nav className="navbar  navbar-expand-lg m-0 p-0">
                 <span className="navbar-brand brand">Rotaract Club MNNIT</span>
                 <button
                   className="navbar-toggler collapsed"
@@ -94,13 +125,13 @@ export default class Homepage extends Component {
                   id="landingPageNavbar"
                 >
                   <div className="navbar-nav ml-auto align-items-center">
-                    {/* <Link onClick={this.executeFormScroll}><span className="mr-3 nav__link">Join us</span></Link> */}
+                    {/* <Link onClick={this.executeFormScroll}><span className="mr-3 nav__link">Join us</span></Link> 
                     <Link to="/gallery">
                       <span className="nav__link">View gallery</span>
                     </Link>
                   </div>
                 </div>
-              </nav>
+              </nav>*/}
               <div className="rotaract-logo-wrapper">
                 <img src={Logo} className="rotaract-logo" alt="" />
               </div>
