@@ -1,8 +1,8 @@
 import React from 'react';
-import {BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Home from './views/homepage';
 import Post from './components/post'
-
+import Payment from './components/payment'
 
 function App() {
   return (
@@ -11,9 +11,10 @@ function App() {
         <switch>
           <Route path="/" exact component={Home} />
           <Route path="/gallery" component={Post} />
+          <Route path="/payment" component={Payment} />
         </switch>
       </Router>
-      
+
     </div>
   );
 }
