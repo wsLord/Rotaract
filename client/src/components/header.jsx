@@ -24,18 +24,20 @@ const Header = (props) => {
 						<Nav.Link href="">
 							<Link to="/donate">Donate</Link>
 						</Nav.Link>
+						<Nav.Link href="/gallery">
+							<Link to="/gallery">Gallery</Link>
+						</Nav.Link>
 					</Nav>
-					{/* {About Us, Views, Achievements, Activities} */}
+					{/* {About Us, Views, Achievements, Activities, Join Us} */}
 					<Nav>
 						<Nav.Link href="">
-							<Link to="/#activities">Join Us</Link>
+							<Link to="/#activities">About Team</Link>
 						</Nav.Link>
-						<Nav.Link eventKey={2} href="/gallery">
-							<Link to="/about">
+						{/* <Nav.Link eventKey={2} href="/gallery">
+							<Link to="/gallery">
 								<span className="nav__link">About Team</span>
 							</Link>
-						</Nav.Link>
-
+						</Nav.Link> */}
 					</Nav>
 				</Navbar.Collapse>
 			</Container>

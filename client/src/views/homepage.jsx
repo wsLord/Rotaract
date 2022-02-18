@@ -184,13 +184,13 @@ export default class Homepage extends Component {
 
            
 
-        <div className="container our__works__section our_vision_background_wrapper">
+        {/* <div className="container our__works__section our_vision_background_wrapper">
           <div className="container our__vision__section">
             <h1 className="main__heading">
               <span>Our Works</span>
             </h1>
           </div>
-        </div>
+        </div> */}
         <div className="container " id="activities">
           <Carousel>
             <Carousel.Item  className="carouselItem" >

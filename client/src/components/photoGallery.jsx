@@ -32,7 +32,7 @@ const PhotoGallery = () => {
 								currentIndex={currentImage}
 								views={list.map((x) => ({
 									...x,
-									srcset: x.srcSet,
+									srcSet: x.srcset,
 								}))}
 							/>
 						</Modal>
