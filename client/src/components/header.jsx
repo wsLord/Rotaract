@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
-import NavDropdown from "react-bootstrap/NavDropdown";
+// import NavDropdown from "react-bootstrap/NavDropdown";
 import Container from "react-bootstrap/Container";
 
 const Header = (props) => {
@@ -10,30 +10,28 @@ const Header = (props) => {
 		<Navbar collapseOnSelect expand="lg" bg="info" variant="dark">
 			<Container>
 				<Navbar.Brand>
-				<Link to="/">
-					<strong>Rotaract</strong>
+					<Link to="/">
+						<strong>Rotaract</strong>
 					</Link>
 				</Navbar.Brand>
 				<Navbar.Toggle aria-controls="responsive-navbar-nav" />
 				<Navbar.Collapse id="responsive-navbar-nav">
 					<Nav className="me-auto">
-						<Nav.Link href="#features">Post</Nav.Link>
-						<Nav.Link href="#pricing">
-							<Link to="/payment">Donate</Link>
+						<Nav.Link href="">
+							<Link to="/#activities">Activities</Link>
 						</Nav.Link>
-						<NavDropdown title="More" id="collasible-nav-dropdown">
-							<NavDropdown.Item href="#action/3.1">About Us</NavDropdown.Item>
-							<NavDropdown.Item href="#action/3.2">Views</NavDropdown.Item>
-							<NavDropdown.Item href="#action/3.3">Achievements</NavDropdown.Item>
-							<NavDropdown.Divider />
-							<NavDropdown.Item href="#action/3.4">Activities</NavDropdown.Item>
-						</NavDropdown>
+						<Nav.Link href="">
+							<Link to="/donate">Donate</Link>
+						</Nav.Link>
 					</Nav>
+					{/* {About Us, Views, Achievements, Activities} */}
 					<Nav>
-						<Nav.Link href="#deets">Join Us</Nav.Link>
-						<Nav.Link eventKey={2} href="#memes">
+						<Nav.Link href="">
+							<Link to="/#activities">Join Us</Link>
+						</Nav.Link>
+						<Nav.Link eventKey={2} href="/gallery">
 							<Link to="/gallery">
-								<span className="nav__link">View gallery</span>
+								<span className="nav__link">View Gallery</span>
 							</Link>
 						</Nav.Link>
 					</Nav>

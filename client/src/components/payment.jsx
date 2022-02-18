@@ -10,7 +10,7 @@ import Header from "./header";
 const Payment = () => {
 	return (
 		<>
-			<Header></Header>
+			<Header/>
 			<div class="cards">
 				<div class="card" id="card3">
 					<div>
