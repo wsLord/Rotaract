@@ -1,10 +1,11 @@
 import React, { Component, Suspense, useState } from "react";
 import { Link } from "react-router-dom";
+import EmailIcon from "@mui/icons-material/Email";
 import "../sass/main.scss";
 import qrcode from "../assets/QRcode.jpeg";
 import "./../assets/style.css";
-import EmailIcon from "@mui/icons-material/Email";
 import Header from "./header";
+import Footer from "./footer";
 
 const Payment = () => {
 
@@ -57,6 +58,7 @@ const Payment = () => {
 				</div>
 			</div>
 
+			<Footer />
 		</>
 	);
 };
