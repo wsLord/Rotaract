@@ -8,7 +8,7 @@ const Footer = (props) => {
 		<footer id="sticky-footer" class="flex-shrink-0 py-4 bg-dark text-white-50">
 			<div class="container text-center">
 				<small className="footer">
-					Copyright &copy; 2019 <img src={Logo} alt="logo"></img> All Rights Reserved.
+					Copyright &copy; 2022 <img src={Logo} alt="logo"></img> All Rights Reserved.
 				</small>
 			</div>
 		</footer>
