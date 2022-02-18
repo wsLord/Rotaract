@@ -30,10 +30,11 @@ const Header = (props) => {
 							<Link to="/#activities">Join Us</Link>
 						</Nav.Link>
 						<Nav.Link eventKey={2} href="/gallery">
-							<Link to="/gallery">
+							<Link to="/about">
 								<span className="nav__link">About Team</span>
 							</Link>
 						</Nav.Link>
+
 					</Nav>
 				</Navbar.Collapse>
 			</Container>
