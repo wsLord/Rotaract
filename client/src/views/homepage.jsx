@@ -372,18 +372,16 @@ export default class Homepage extends Component {
 
         <div>
           <section className="contact-area " id="contact">
-            <div className="container">
-              <div className="row">
-                <div className="col-lg-6 offset-lg-3">
-                  <div className="contact-content text-center">
-                    <img src={Logo} alt="logo"></img>
-                    <p>
-                      We were established on 28 May,2015 under the club
+          <footer class="w-100 py-4 flex-shrink-0">
+        <div class="container ">
+            <div class="">
+                <div class="">
+                    <h5 class="h1 text-white" >Also..</h5>
+                    <p class="small text-muted">We were established on 28 May,2015 under the club
                       sponsorship of Rotary Club of Allahabad Elite, Uttar
                       Pradesh, India. From a humble 15 members team size we have
-                      grown to a 60+ member team.
-                    </p>
-                    <div className="hr"></div>
+                      grown to a 60+ member team.</p>
+                      <div className="hr"></div>
                     <h6>
                       MNNIT Allahabad, Teliarganj, Prayagraj, Uttar Pradesh
                       211004
@@ -391,25 +389,20 @@ export default class Homepage extends Component {
                     <h6>
                       +01 2345 6789 12<span>|</span>+01 2345 6789 12
                     </h6>
-                    {/* <div className="contact-social">
-                            <ul>
-                                <li><a className="hover-target" href=""><i className="fab fa-facebook-f"></i></a></li>
-                                <li><a className="hover-target" href=""><i className="fab fa-linkedin-in"></i></a></li>
-                                <li><a className="hover-target" href=""><i className="fab fa-github"></i></a></li>
-                                <li><a className="hover-target" href=""><i className="fab fa-behance"></i></a></li>
-                                <li><a className="hover-target" href=""><i className="fab fa-pinterest-p"></i></a></li>
-                            </ul>
-                        </div> */}
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <p className="footer">
+                      </div></div>
+        </div>
+    </footer>
+    
+          </section>
+          <footer id="sticky-footer" class="flex-shrink-0 py-4 bg-dark text-white-50">
+    <div class="container text-center">
+      <small className="footer">
               Copyright &copy; 2019 <img src={Logo} alt="logo"></img> All Rights
               Reserved.
-            </p>
-          </section>
+            </small>
+    </div>
+  </footer>
+         
         </div>
       </div>
     );
