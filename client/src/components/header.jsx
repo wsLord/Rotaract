@@ -31,7 +31,7 @@ const Header = (props) => {
 						</Nav.Link>
 						<Nav.Link eventKey={2} href="/gallery">
 							<Link to="/gallery">
-								<span className="nav__link">View Gallery</span>
+								<span className="nav__link">About Team</span>
 							</Link>
 						</Nav.Link>
 					</Nav>
