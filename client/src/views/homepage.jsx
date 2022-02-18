@@ -77,39 +77,39 @@ export default class Homepage extends Component {
         <div className="blob__container__section">
           <div className="container-fluid mt-3">
             <div className="container-lg  p-0">
-              <Navbar collapseOnSelect expand="lg" bg="warning" variant="dark">
+              <Navbar collapseOnSelect expand="lg" bg="info" variant="dark">
                 <Container>
                   <Navbar.Brand href="#home">
-                    <strong>React-Bootstrap</strong>
+                    <strong>Rotaract</strong>
                   </Navbar.Brand>
                   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                   <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="me-auto">
-                      <Nav.Link href="#features">Features</Nav.Link>
+                      <Nav.Link href="#features">Post</Nav.Link>
                       <Nav.Link href="#pricing">
-                        <Link to="/payment">Pay</Link>
+                        <Link to="/payment">Donate</Link>
                       </Nav.Link>
                       <NavDropdown
-                        title="Dropdown"
+                        title="More"
                         id="collasible-nav-dropdown"
                       >
                         <NavDropdown.Item href="#action/3.1">
-                          Action
+                          About Us
                         </NavDropdown.Item>
                         <NavDropdown.Item href="#action/3.2">
-                          Another action
+                          Views
                         </NavDropdown.Item>
                         <NavDropdown.Item href="#action/3.3">
-                          Something
+                          Achievements
                         </NavDropdown.Item>
                         <NavDropdown.Divider />
                         <NavDropdown.Item href="#action/3.4">
-                          Separated link
+                          Activities
                         </NavDropdown.Item>
                       </NavDropdown>
                     </Nav>
                     <Nav>
-                      <Nav.Link href="#deets">More</Nav.Link>
+                      <Nav.Link href="#deets">Join Us</Nav.Link>
                       <Nav.Link eventKey={2} href="#memes">
                         <Link to="/gallery">
                           <span className="nav__link">View gallery</span>
