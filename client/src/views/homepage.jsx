@@ -79,28 +79,38 @@ export default class Homepage extends Component {
             <div className="container-lg  p-0">
               <Navbar collapseOnSelect expand="lg" bg="warning" variant="dark">
                 <Container>
-                  <Navbar.Brand href="#home"><strong>React-Bootstrap</strong></Navbar.Brand>
+                  <Navbar.Brand href="#home">
+                    <strong>React-Bootstrap</strong>
+                  </Navbar.Brand>
                   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                   <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="me-auto">
                       <Nav.Link href="#features">Features</Nav.Link>
                       <Nav.Link href="#pricing">
-                        <Link to="/payment">
-                          Pay
-                        </Link>
+                        <Link to="/payment">Pay</Link>
                       </Nav.Link>
-                      <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
-                        <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                        <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-                        <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+                      <NavDropdown
+                        title="Dropdown"
+                        id="collasible-nav-dropdown"
+                      >
+                        <NavDropdown.Item href="#action/3.1">
+                          Action
+                        </NavDropdown.Item>
+                        <NavDropdown.Item href="#action/3.2">
+                          Another action
+                        </NavDropdown.Item>
+                        <NavDropdown.Item href="#action/3.3">
+                          Something
+                        </NavDropdown.Item>
                         <NavDropdown.Divider />
-                        <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
+                        <NavDropdown.Item href="#action/3.4">
+                          Separated link
+                        </NavDropdown.Item>
                       </NavDropdown>
                     </Nav>
                     <Nav>
                       <Nav.Link href="#deets">More</Nav.Link>
                       <Nav.Link eventKey={2} href="#memes">
-
                         <Link to="/gallery">
                           <span className="nav__link">View gallery</span>
                         </Link>
@@ -136,8 +146,17 @@ export default class Homepage extends Component {
                   </div>
                 </div>
               </nav>*/}
-              <div className="rotaract-logo-wrapper">
-                <img src={Logo} className="rotaract-logo" alt="" />
+              
+            </div>
+          </div>
+
+          <div className="container-fluid s__b__s">
+            <div className="row">
+              <div className="col-md-6 d-flex justify-content-center">
+                {titleHead}
+              </div>
+              <div className="col-md-6">
+                <Cube />
               </div>
             </div>
           </div>
@@ -236,184 +255,206 @@ export default class Homepage extends Component {
             <h1 className="main__heading">
               <span>Our Works</span>
             </h1>
-
           </div>
         </div>
+        <div className="container" >
+          <Carousel>
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src={shareSectionImg}
+                alt="First slide"
+              />
+              <Carousel.Caption>
+                <h3>First slide label</h3>
+                <p>
+                  Nulla vitae elit libero, a pharetra augue mollis interdum.
+                </p>
+                <Link
+                  to={{
+                    pathname: "/gallery",
+                    state: { list: winterClothDriveList },
+                  }}
+                >
+                  <Button variant="outline-secondary">
+                    Winter Cloth Donation Drive
+                  </Button>{" "}
+                </Link>
+              </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src={shareSectionImg}
+                alt="Second slide"
+              />
 
-        <Carousel>
-          <Carousel.Item>
-            <img
-              className="d-block w-100"
-              src={shareSectionImg}
-              alt="First slide"
-            />
-            <Carousel.Caption>
-              <h3>First slide label</h3>
-              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-              <Link
-                to={{
-                  pathname: "/gallery",
-                  state: { list: winterClothDriveList },
-                }}
-              >
-                <Button variant="outline-secondary">
-                  Winter Cloth Donation Drive
-                </Button>{" "}
-              </Link>
-            </Carousel.Caption>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img
-              className="d-block w-100"
-              src={shareSectionImg}
-              alt="Second slide"
-            />
+              <Carousel.Caption>
+                <h3>Second slide label</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <Link
+                  to={{
+                    pathname: "/gallery",
+                    state: { list: sundayList },
+                  }}
+                >
+                  <Button variant="outline-secondary">Sunday Activity</Button>{" "}
+                </Link>
+              </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src={shareSectionImg}
+                alt="Third slide"
+              />
 
-            <Carousel.Caption>
-              <h3>Second slide label</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-              <Link
-                to={{
-                  pathname: "/gallery",
-                  state: { list: sundayList },
-                }}
-              >
-                <Button variant="outline-secondary">Sunday Activity</Button>{" "}
-              </Link>
-            </Carousel.Caption>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img
-              className="d-block w-100"
-              src={shareSectionImg}
-              alt="Third slide"
-            />
+              <Carousel.Caption>
+                <h3>Third slide label</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <Link
+                  to={{
+                    pathname: "/gallery",
+                    state: { list: oldAgeHomeList },
+                  }}
+                >
+                  <Button variant="outline-secondary">
+                    Old Age Home Visit
+                  </Button>{" "}
+                </Link>
+              </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src={shareSectionImg}
+                alt="Fourth slide"
+              />
 
-            <Carousel.Caption>
-              <h3>Third slide label</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-              <Link
-                to={{
-                  pathname: "/gallery",
-                  state: { list: oldAgeHomeList },
-                }}
-              >
-                <Button variant="outline-secondary">Old Age Home Visit</Button>{" "}
-              </Link>
-            </Carousel.Caption>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img
-              className="d-block w-100"
-              src={shareSectionImg}
-              alt="Fourth slide"
-            />
+              <Carousel.Caption>
+                <h3>Fourth slide label</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <Link
+                  to={{
+                    pathname: "/gallery",
+                    state: { list: leprosyList },
+                  }}
+                >
+                  <Button variant="outline-secondary">
+                    Leprosy Hospital Visit
+                  </Button>{" "}
+                </Link>
+              </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src={shareSectionImg}
+                alt="Fifth slide"
+              />
 
-            <Carousel.Caption>
-              <h3>Fourth slide label</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-              <Link
-                to={{
-                  pathname: "/gallery",
-                  state: { list: leprosyList },
-                }}
-              >
-                <Button variant="outline-secondary">
-                  Leprosy Hospital Visit
-                </Button>{" "}
-              </Link>
-            </Carousel.Caption>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img
-              className="d-block w-100"
-              src={shareSectionImg}
-              alt="Fifth slide"
-            />
+              <Carousel.Caption>
+                <h3>Fifth slide label</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <Link
+                  to={{
+                    pathname: "/gallery",
+                    state: { list: dikshaList },
+                  }}
+                >
+                  <Button variant="outline-secondary">Diksha Activity</Button>{" "}
+                </Link>
+              </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src={shareSectionImg}
+                alt="Sixth slide"
+              />
 
-            <Carousel.Caption>
-              <h3>Fifth slide label</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-              <Link
-                to={{
-                  pathname: "/gallery",
-                  state: { list: dikshaList },
-                }}
-              >
-                <Button variant="outline-secondary">Diksha Activity</Button>{" "}
-              </Link>
-            </Carousel.Caption>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img
-              className="d-block w-100"
-              src={shareSectionImg}
-              alt="Sixth slide"
-            />
+              <Carousel.Caption>
+                <h3>Sixth slide label</h3>
+                <p>
+                  Praesent commodo cursus magna, vel scelerisque nisl
+                  consectetur.
+                </p>
+                <Link
+                  to={{
+                    pathname: "/gallery",
+                    state: { list: bloodDonationDriveList },
+                  }}
+                >
+                  <Button variant="outline-secondary">
+                    Blood Donation Drive
+                  </Button>{" "}
+                </Link>
+              </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src={shareSectionImg}
+                alt="Seventh slide"
+              />
 
-            <Carousel.Caption>
-              <h3>Sixth slide label</h3>
-              <p>
-                Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-              </p>
-              <Link
-                to={{
-                  pathname: "/gallery",
-                  state: { list: bloodDonationDriveList },
-                }}
-              >
-                <Button variant="outline-secondary">
-                  Blood Donation Drive
-                </Button>{" "}
-              </Link>
-            </Carousel.Caption>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img
-              className="d-block w-100"
-              src={shareSectionImg}
-              alt="Seventh slide"
-            />
+              <Carousel.Caption>
+                <h3>Seventh slide label</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <Link
+                  to={{
+                    pathname: "/gallery",
+                    state: { list: blindSchoolList },
+                  }}
+                >
+                  <Button variant="outline-secondary">Blind School</Button>{" "}
+                </Link>
+              </Carousel.Caption>
+            </Carousel.Item>
+          </Carousel>
+        </div>
 
-            <Carousel.Caption>
-              <h3>Seventh slide label</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-              <Link
-                to={{
-                  pathname: "/gallery",
-                  state: { list: blindSchoolList },
-                }}
-              >
-                <Button variant="outline-secondary">Blind School</Button>{" "}
-              </Link>
-            </Carousel.Caption>
-          </Carousel.Item>
-        </Carousel>
-
-        <div className="container-fluid s__b__s">
-          <div className="row">
-            <div className="col-md-6 d-flex justify-content-center">
-              {titleHead}
+        <div>
+          <section className="contact-area " id="contact">
+            <div className="container">
+              <div className="row">
+                <div className="col-lg-6 offset-lg-3">
+                  <div className="contact-content text-center">
+                    <img src={Logo} alt="logo"></img>
+                    <p>
+                      We were established on 28 May,2015 under the club
+                      sponsorship of Rotary Club of Allahabad Elite, Uttar
+                      Pradesh, India. From a humble 15 members team size we have
+                      grown to a 60+ member team.
+                    </p>
+                    <div className="hr"></div>
+                    <h6>
+                      MNNIT Allahabad, Teliarganj, Prayagraj, Uttar Pradesh
+                      211004
+                    </h6>
+                    <h6>
+                      +01 2345 6789 12<span>|</span>+01 2345 6789 12
+                    </h6>
+                    {/* <div className="contact-social">
+                            <ul>
+                                <li><a className="hover-target" href=""><i className="fab fa-facebook-f"></i></a></li>
+                                <li><a className="hover-target" href=""><i className="fab fa-linkedin-in"></i></a></li>
+                                <li><a className="hover-target" href=""><i className="fab fa-github"></i></a></li>
+                                <li><a className="hover-target" href=""><i className="fab fa-behance"></i></a></li>
+                                <li><a className="hover-target" href=""><i className="fab fa-pinterest-p"></i></a></li>
+                            </ul>
+                        </div> */}
+                  </div>
+                </div>
+              </div>
             </div>
-            <div className="col-md-6">
-              <Cube />
-            </div>
-          </div>
-        </div>
-        {/* <div ref={this.gallery}>
-                    <Gallery />
-            </div> */}
 
-        <div
-          onClick={this.executeStoryTopScroll}
-          className="d-flex justify-content-end p-2 arrow_to_top"
-        >
-          <i className="fa fa-2x fa-arrow-up"></i>
+            <p className="footer">
+              Copyright &copy; 2019 <img src={Logo} alt="logo"></img> All Rights
+              Reserved.
+            </p>
+          </section>
         </div>
-        <div ref={this.storyForm} className="">
-          <ShareRotaryStory />
-        </div>
-        {/* <Footer /> */}
       </div>
     );
   }
