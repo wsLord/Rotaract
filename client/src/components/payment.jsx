@@ -1,16 +1,16 @@
-import React, { Component, Suspense } from "react";
+import React, { Component, Suspense, useState } from "react";
 import { Link } from "react-router-dom";
 import "../sass/main.scss";
-
 import qrcode from "../assets/QRcode.jpeg";
-
 import "./../assets/style.css";
 import EmailIcon from "@mui/icons-material/Email";
 import Header from "./header";
+
 const Payment = () => {
+
 	return (
 		<>
-			<Header/>
+			<Header />
 			<div class="cards">
 				<div class="card" id="card3">
 					<div>
@@ -46,15 +46,17 @@ const Payment = () => {
 						<h5>For any query you can mail:-</h5>
 						<div>
 							<p id="check">
-								<EmailIcon /> <h5> aakanksha.khetan@gmail.com</h5>
+								<a href="mailto:aakanksha.khetan@gmail.com"><h5><EmailIcon />aakanksha.khetan@gmail.comb</h5></a>
 							</p>
 						</div>
 					</div>
 				</div>
+
 				<div class="card" id="card2">
 					<img src={qrcode} alt="QR"></img>
 				</div>
 			</div>
+
 		</>
 	);
 };
