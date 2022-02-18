@@ -1,35 +1,51 @@
-
 const dikshaList = [
-    {
-      src: "https://drive.google.com/uc?export=view&id=1JrYL0suqCteHR0JexYxP5vgrEm3nbF1D",
-      width: 4,
-      height: 3
-    },
-    {
-      src: "https://drive.google.com/uc?export=view&id=1Sq37gxNjPT2MZd1tTtsOApPW1aSx5yzc",
-      width: 1,
-      height: 1
-    },
-    {
-      src: "https://drive.google.com/uc?export=view&id=14Y-2We3Tqb10YiUb5YI-4f-k5WZhVht_",
-      width: 3,
-      height: 4
-    },
-    {
-      src: "https://drive.google.com/uc?export=view&id=1eDDc4gjVNmi3_-IVnFcajokAr2F76Ks7",
-      width: 3,
-      height: 4
-    },
-    {
-      src: "https://drive.google.com/uc?export=view&id=1SpUjc42Hu7tb6FKgVuGjdew_hND2Bc_r",
-      width: 3,
-      height: 4
-    },
-    {
-      src: "https://drive.google.com/uc?export=view&id=1GCF8dOQdA5Fd3JFqv1Cy2HEO7T2yBkbc",
-      width: 4,
-      height: 3
-    },
-    
-  ];
-  export default dikshaList;
+  {
+    src: "https://ik.imagekit.io/mnnitrotaract/Rotaract/disha_initiative/main_CTo5spJ6I.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1645190465803",
+    width: 4,
+    height: 3,
+    srcset: `https://ik.imagekit.io/mnnitrotaract/Rotaract/disha_initiative/tr:w-400/main_CTo5spJ6I.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1645190465803 400w,
+    https://ik.imagekit.io/mnnitrotaract/Rotaract/disha_initiative/tr:w-800/main_CTo5spJ6I.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1645190465803 800w,
+    https://ik.imagekit.io/mnnitrotaract/Rotaract/disha_initiative/tr:w-1200/main_CTo5spJ6I.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1645190465803 1200w`,
+  },
+  {
+    src: "https://ik.imagekit.io/mnnitrotaract/Rotaract/disha_initiative/70999993_2450432921860781_8725022166841556992_n_1hp3gzTG6YHnU.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1645190465300",
+    width: 3,
+    height: 4,
+    srcset: `https://ik.imagekit.io/mnnitrotaract/Rotaract/disha_initiative/tr:w-400/70999993_2450432921860781_8725022166841556992_n_1hp3gzTG6YHnU.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1645190465300 400w,
+    https://ik.imagekit.io/mnnitrotaract/Rotaract/disha_initiative/tr:w-800/70999993_2450432921860781_8725022166841556992_n_1hp3gzTG6YHnU.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1645190465300 800w,
+    https://ik.imagekit.io/mnnitrotaract/Rotaract/disha_initiative/tr:w-1200/70999993_2450432921860781_8725022166841556992_n_1hp3gzTG6YHnU.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1645190465300 1200w`,
+  },
+  {
+    src: "https://ik.imagekit.io/mnnitrotaract/Rotaract/disha_initiative/70039358_2450432971860776_6496422301905453056_n_Gi2VlmePT.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1645190462239",
+    width: 4,
+    height: 3,
+    srcset: `https://ik.imagekit.io/mnnitrotaract/Rotaract/disha_initiative/tr:w-400/70039358_2450432971860776_6496422301905453056_n_Gi2VlmePT.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1645190462239 400w,
+    https://ik.imagekit.io/mnnitrotaract/Rotaract/disha_initiative/tr:w-800/70039358_2450432971860776_6496422301905453056_n_Gi2VlmePT.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1645190462239 800w,
+    https://ik.imagekit.io/mnnitrotaract/Rotaract/disha_initiative/tr:w-1200/70039358_2450432971860776_6496422301905453056_n_Gi2VlmePT.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1645190462239 1200w`,
+  },
+  {
+    src: "https://ik.imagekit.io/mnnitrotaract/Rotaract/disha_initiative/69813308_2450432751860798_2742953539008462848_n_Qmb7oWaci.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1645190462549",
+    width: 3,
+    height: 4,
+    srcset: `https://ik.imagekit.io/mnnitrotaract/Rotaract/disha_initiative/tr:w-400/69813308_2450432751860798_2742953539008462848_n_Qmb7oWaci.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1645190462549 400w,
+    https://ik.imagekit.io/mnnitrotaract/Rotaract/disha_initiative/tr:w-800/69813308_2450432751860798_2742953539008462848_n_Qmb7oWaci.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1645190462549 800w,
+    https://ik.imagekit.io/mnnitrotaract/Rotaract/disha_initiative/tr:w-1200/69813308_2450432751860798_2742953539008462848_n_Qmb7oWaci.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1645190462549 1200w`,
+  },
+  {
+    src: "https://ik.imagekit.io/mnnitrotaract/Rotaract/disha_initiative/69776583_2450432738527466_5974536530801197056_n_MuVZYSBPsH0r.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1645190462063",
+    width: 4,
+    height: 3,
+    srcset: `https://ik.imagekit.io/mnnitrotaract/Rotaract/disha_initiative/tr:w-400/69776583_2450432738527466_5974536530801197056_n_MuVZYSBPsH0r.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1645190462063 400w,
+    https://ik.imagekit.io/mnnitrotaract/Rotaract/disha_initiative/tr:w-800/69776583_2450432738527466_5974536530801197056_n_MuVZYSBPsH0r.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1645190462063 800w,
+    https://ik.imagekit.io/mnnitrotaract/Rotaract/disha_initiative/tr:w-1200/69776583_2450432738527466_5974536530801197056_n_MuVZYSBPsH0r.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1645190462063 1200w`,
+  },
+  {
+    src: "https://ik.imagekit.io/mnnitrotaract/Rotaract/disha_initiative/69662531_2450432758527464_4205355410414108672_n_nBIUGPsNT.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1645190461145",
+    width: 3,
+    height: 4,
+    srcset: `https://ik.imagekit.io/mnnitrotaract/Rotaract/disha_initiative/tr:w-400/69662531_2450432758527464_4205355410414108672_n_nBIUGPsNT.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1645190461145 400w,
+    https://ik.imagekit.io/mnnitrotaract/Rotaract/disha_initiative/tr:w-800/69662531_2450432758527464_4205355410414108672_n_nBIUGPsNT.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1645190461145 800w,
+    https://ik.imagekit.io/mnnitrotaract/Rotaract/disha_initiative/tr:w-1200/69662531_2450432758527464_4205355410414108672_n_nBIUGPsNT.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1645190461145 1200w`,
+  },
+];
+export default dikshaList;

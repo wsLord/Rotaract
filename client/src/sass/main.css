@@ -555,6 +555,15 @@ button.navbar-toggler:focus, .navbar-toggler:active, .navbar-toggler-icon:focus 
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.type__heading_2 {
+  padding: 2rem;
+  font-size: 70px;
+  font-family: Ubuntu;
+  font-weight: 300;
+  background: linear-gradient(89.91deg, #0C85C9 0.12%, #870079 40.35%, rgba(172, 34, 34, 0.8) 60.25%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
 @media (min-width: 121px) and (max-width: 375px) {
   .intro__section {

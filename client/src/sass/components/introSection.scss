@@ -31,6 +31,16 @@
     // -webkit-text-fill-color: transparent;
     color:#424242;
 }
+.type__heading_2 {
+    padding: 2rem;
+    font-size: 40px;
+    font-family: $font-1;
+    font-weight:300;
+    // background: linear-gradient(89.91deg, #0C85C9 0.12%, #870079 40.35%, rgba(#AC2222, 0.8) 60.25%);
+    // -webkit-background-clip: text;
+    // -webkit-text-fill-color: transparent;
+    color:#424242;
+}
 
 @media (min-width:121px) and (max-width:375px) {
     .intro__section {
@@ -54,6 +64,9 @@
         color: rgba(#000, 0.7);
     }
     .type__heading_1 {
+        display: none;
+    }
+    .type__heading_2 {
         display: none;
     }
 }

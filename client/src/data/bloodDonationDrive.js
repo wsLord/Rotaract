@@ -1,34 +1,51 @@
-
 const bloodDonationDrivelist = [
   {
-    src: "https://drive.google.com/uc?export=view&id=10Pt7R_pMtYYzoeY0Om-rd-woNctw7y6t",
+    src: "https://ik.imagekit.io/mnnitrotaract/Rotaract/blood_donation/70892593_2452883744949032_7086643175942520832_n_mTtjiiQIG.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1645189717799",
     width: 4,
-    height: 3
+    height: 3,
+    srcset: `https://ik.imagekit.io/mnnitrotaract/Rotaract/blood_donation/tr:w-400/70892593_2452883744949032_7086643175942520832_n_mTtjiiQIG.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1645189717799 400w,
+    https://ik.imagekit.io/mnnitrotaract/Rotaract/blood_donation/tr:w-800/70892593_2452883744949032_7086643175942520832_n_mTtjiiQIG.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1645189717799 800w,
+    https://ik.imagekit.io/mnnitrotaract/Rotaract/blood_donation/tr:w-1200/70892593_2452883744949032_7086643175942520832_n_mTtjiiQIG.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1645189717799 1200w`,
   },
   {
-    src: "https://drive.google.com/uc?export=view&id=1AhE1Y8yKVW7JQ1Yc5wUOw7upT4CQ8szo",
-    width: 1,
-    height: 1
-  },
-  {
-    src: "https://drive.google.com/uc?export=view&id=1SmW5ehr526w82ZzlzF2_ekOnRGoACBff",
+    src: "https://ik.imagekit.io/mnnitrotaract/Rotaract/blood_donation/70797224_2452883738282366_760094887952515072_n_PrNUTeoXr.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1645189716478",
     width: 3,
-    height: 4
+    height: 4,
+    srcset: `https://ik.imagekit.io/mnnitrotaract/Rotaract/blood_donation/tr:w-400/70797224_2452883738282366_760094887952515072_n_PrNUTeoXr.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1645189716478 400w,
+    https://ik.imagekit.io/mnnitrotaract/Rotaract/blood_donation/tr:w-800/70797224_2452883738282366_760094887952515072_n_PrNUTeoXr.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1645189716478 800w,
+    https://ik.imagekit.io/mnnitrotaract/Rotaract/blood_donation/tr:w-1200/70797224_2452883738282366_760094887952515072_n_PrNUTeoXr.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1645189716478 1200w`,
   },
   {
-    src: "https://drive.google.com/uc?export=view&id=13FdKBfHuSOaSjUCUt7kz5MFCE7VKazXL",
-    width: 3,
-    height: 4
-  },
-  {
-    src: "https://drive.google.com/uc?export=view&id=1Slv5IF9cttS2H--y-Jc9IGI4CMkPKxv2",
-    width: 3,
-    height: 4
-  },
-  {
-    src: "https://drive.google.com/uc?export=view&id=1gP4ONye2oGOfEwXT9O31lcp95EfrvhMZ",
+    src: "https://ik.imagekit.io/mnnitrotaract/Rotaract/blood_donation/main.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1645190003871",
     width: 4,
-    height: 3
-  }
+    height: 3,
+    srcset: `https://ik.imagekit.io/mnnitrotaract/Rotaract/blood_donation/tr:w-400/main.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1645190003871 400w,
+    https://ik.imagekit.io/mnnitrotaract/Rotaract/blood_donation/tr:w-800/main.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1645190003871 800w,
+    https://ik.imagekit.io/mnnitrotaract/Rotaract/blood_donation/tr:w-1200/main.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1645190003871 1200w`,
+  },
+  {
+    src: "https://ik.imagekit.io/mnnitrotaract/Rotaract/blood_donation/70649087_2452883814949025_1867311884626034688_n_Raa2qmFWNffz.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1645189715625",
+    width: 3,
+    height: 4,
+    srcset: `https://ik.imagekit.io/mnnitrotaract/Rotaract/blood_donation/tr:w-400/70649087_2452883814949025_1867311884626034688_n_Raa2qmFWNffz.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1645189715625 400w,
+    https://ik.imagekit.io/mnnitrotaract/Rotaract/blood_donation/tr:w-800/70649087_2452883814949025_1867311884626034688_n_Raa2qmFWNffz.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1645189715625 800w,
+    https://ik.imagekit.io/mnnitrotaract/Rotaract/blood_donation/tr:w-1200/70649087_2452883814949025_1867311884626034688_n_Raa2qmFWNffz.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1645189715625 1200w`,
+  },
+  {
+    src: "https://ik.imagekit.io/mnnitrotaract/Rotaract/blood_donation/70325675_2452883868282353_4946429017789038592_n_LJ58GLuio.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1645189714486",
+    width: 4,
+    height: 3,
+    srcset: `https://ik.imagekit.io/mnnitrotaract/Rotaract/blood_donation/tr:w-400/70325675_2452883868282353_4946429017789038592_n_LJ58GLuio.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1645189714486 400w,
+    https://ik.imagekit.io/mnnitrotaract/Rotaract/blood_donation/tr:w-800/70325675_2452883868282353_4946429017789038592_n_LJ58GLuio.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1645189714486 800w,
+    https://ik.imagekit.io/mnnitrotaract/Rotaract/blood_donation/tr:w-1200/70325675_2452883868282353_4946429017789038592_n_LJ58GLuio.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1645189714486 1200w`,
+  },
+  {
+    src: "https://ik.imagekit.io/mnnitrotaract/Rotaract/blood_donation/70037168_2452883848282355_2189455197992910848_n_NIjqbChLj.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1645189713774",
+    width: 3,
+    height: 4,
+    srcset: `https://ik.imagekit.io/mnnitrotaract/Rotaract/blood_donation/tr:w-400/70037168_2452883848282355_2189455197992910848_n_NIjqbChLj.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1645189713774 400w,
+    https://ik.imagekit.io/mnnitrotaract/Rotaract/blood_donation/tr:w-800/70037168_2452883848282355_2189455197992910848_n_NIjqbChLj.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1645189713774 800w,
+    https://ik.imagekit.io/mnnitrotaract/Rotaract/blood_donation/tr:w-1200/70037168_2452883848282355_2189455197992910848_n_NIjqbChLj.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1645189713774 1200w`,
+  },
 ];
 export default bloodDonationDrivelist;

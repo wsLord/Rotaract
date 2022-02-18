@@ -87,6 +87,9 @@
   .cards {
     justify-content: center;
   }
+  .c_img{
+    height: auto;
+  }
 }
 
 img {
@@ -177,4 +180,20 @@ footer {
 
 .footer img {
   width: 44px;
+}
+.c_img{
+  height: 700px;
+  /* opacity: 0.7; */
+}
+.carouselItem{
+  transition: opacity 1.2s ease-in-out !important;
+  
+}
+
+.caption p {
+  font-weight: 700;
+  color: black;
+}
+.caption h3 {
+  color: black;
 }
