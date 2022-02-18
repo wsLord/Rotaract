@@ -52,7 +52,7 @@
 #card1 {
   width: 500px;
   height: 300px;
-  background: radial-gradient(#fceb05, #f7404f);
+  /* background: radial-gradient(#05fcdb, #1c888b); */
 }
 #card2 {
   margin-top: 20px;
@@ -62,7 +62,7 @@
 #card3 {
   width: 1000px;
   height: 300px;
-  background: radial-gradient(#f2e316, #f7404f);
+  /* background: radial-gradient(#05fcdb, #1c888b);b */
 }
 .card_under_qr {
   margin-left: 200px;
