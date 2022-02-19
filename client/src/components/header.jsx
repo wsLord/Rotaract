@@ -8,7 +8,7 @@ import completeList from "./../data/completeList";
 const Header = (props) => {
 
 	return (
-		<Navbar collapseOnSelect expand="lg" bg="info" variant="dark">
+		<Navbar collapseOnSelect expand="lg" bg="info" variant="dark" className="fixed-top">
 			<Container>
 				<Navbar.Brand>
 					<Link to="/">
@@ -31,7 +31,7 @@ const Header = (props) => {
 					{/* {About Us, Views, Achievements, Activities, Join Us} */}
 					<Nav>
 						<Nav.Link href="">
-							<Link to="/#activities">About Team</Link>
+							<Link to="/about">About Team</Link>
 						</Nav.Link>
 						{/* <Nav.Link eventKey={2} href="/gallery">
 							<Link to="/gallery">
